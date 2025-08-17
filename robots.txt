@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nisha8817.github.io/Business-Website-Aakash_Interiors/sitemap.xml
