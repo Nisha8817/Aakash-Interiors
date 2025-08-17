@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakash Interiors – Crafting Your Dream Spaces</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body class="bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-40 py-4" data-aos="fade-down">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-3xl font-bold tracking-tight">
+                <span class="text-primary-brand">Aakash</span> Interiors
+            </div>
+            <div class="hidden md:flex space-x-10 text-lg font-medium">
+                <a href="#home" class="nav-link text-gray-700 hover:text-primary-brand transition-colors duration-300">Home</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-primary-brand transition-colors duration-300">About</a>
+                <a href="#services" class="nav-link text-gray-700 hover:text-primary-brand transition-colors duration-300">Services</a>
+                <a href="#portfolio" class="nav-link text-gray-700 hover:text-primary-brand transition-colors duration-300">Portfolio</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-primary-brand transition-colors duration-300">Contact</a>
+            </div>
+            <button id="mobileMenuButton" class="md:hidden focus:outline-none text-gray-700 text-3xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobileMenuOverlay" class="md:hidden">
+        <button id="closeMobileMenu"><i class="fas fa-times"></i></button>
+        <a href="#home" class="nav-link" data-section="home">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#services" class="nav-link" data-section="services">Services</a>
+        <a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white text-center">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto hero-text-container" data-aos="fade-up" data-aos-delay="200">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
+                    Crafting Your Dream Spaces <br><span class="text-primary-brand">With Passion & Precision</span>
+                </h1>
+                <p class="text-lg md:text-xl mb-10 opacity-90">
+                    Aakash Interiors transforms houses into homes, blending modern aesthetics with timeless comfort.
+                </p>
+                <a href="#portfolio" class="btn-main text-white px-10 py-4 rounded-full font-semibold text-xl inline-flex items-center">
+                    Explore Our Work <i class="fas fa-arrow-right ml-3"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="text-sm font-semibold tracking-wider text-primary-brand uppercase">Who We Are</span>
+                <h2 class="section-heading">Designing Spaces, Building Dreams</h2>
+                <p class="section-subheading">
+                    At Aakash Interiors, we believe your home should be a reflection of your unique personality and lifestyle.
+                </p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row items-center lg:space-x-12">
+                <div class="lg:w-1/2 mb-12 lg:mb-0" data-aos="fade-right" data-aos-delay="200">
+                    <div class="about-image-wrapper">
+                        <img src="hero1.jpg" 
+                             alt="Interior designer working on plans at a modern desk" >
+                    </div>
+                </div>
+                <div class="lg:w-1/2" data-aos="fade-left" data-aos-delay="300">
+                    <h3 class="text-3xl font-bold mb-6 text-gray-800">Our Philosophy: Modern, Functional, You.</h3>
+                    <p class="mb-6 text-gray-700 leading-relaxed">
+                        I'm Aakash, and my journey into interior design began with a simple belief: everyone deserves a space that inspires them. I transform visions into reality, creating environments that are not only aesthetically pleasing but also highly functional and deeply personal.
+                    </p>
+                    <p class="mb-8 text-gray-700 leading-relaxed">
+                        My approach focuses on innovative space-saving solutions, sustainable practices, and a keen eye for detail, ensuring every project is a harmonious blend of style, comfort, and affordability. Let's build a space that truly feels like home.
+                    </p>
+                    <a href="#contact" class="btn-main text-white px-8 py-3 rounded-full font-semibold inline-flex items-center">
+                        Get a Free Consultation <i class="fas fa-chevron-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="text-sm font-semibold tracking-wider text-primary-brand uppercase">What We Do</span>
+                <h2 class="section-heading">Our Comprehensive Services</h2>
+                <p class="section-subheading">
+                    From concept to completion, we offer a full spectrum of interior design services tailored to your needs.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="service-card text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-house-chimney"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Full Home Design</h3>
+                    <p class="mb-4 text-gray-600">
+                        Comprehensive design solutions for your entire residence, ensuring a cohesive and stunning aesthetic throughout.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-2 mt-4">
+                        <span class="bg-primary-brand-light text-primary-brand text-xs font-medium px-3 py-1 rounded-full">Concept to Completion</span>
+                        <span class="bg-primary-brand-light text-primary-brand text-xs font-medium px-3 py-1 rounded-full">Space Planning</span>
+                    </div>
+                </div>
+                
+                <div class="service-card text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-chair"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Room-Specific Design</h3>
+                    <p class="mb-4 text-gray-600">
+                        Focused design for individual rooms like kitchens, bedrooms, living areas, or bathrooms, maximizing their potential.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-2 mt-4">
+                        <span class="bg-primary-brand-light text-primary-brand text-xs font-medium px-3 py-1 rounded-full">Kitchen & Bath</span>
+                        <span class="bg-primary-brand-light text-primary-brand text-xs font-medium px-3 py-1 rounded-full">Living & Bedroom</span>
+                    </div>
+                </div>
+                
+                <div class="service-card text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Renovation & Styling</h3>
+                    <p class="mb-4 text-gray-600">
+                        Revitalize existing spaces with modern makeovers, color consultations, furniture selection, and decor styling.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-2 mt-4">
+                        <span class="bg-primary-brand-light text-primary-brand text-xs font-medium px-3 py-1 rounded-full">Color Schemes</span>
+                        <span class="bg-primary-brand-light text-primary-brand text-xs font-medium px-3 py-1 rounded-full">Furniture Sourcing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="text-sm font-semibold tracking-wider text-primary-brand uppercase">Our Work</span>
+                <h2 class="section-heading">Inspiring Transformations</h2>
+                <p class="section-subheading">
+                    Browse through our curated selection of recent projects that showcase our diverse design capabilities.
+                </p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image-wrapper">
+                        <img src="portfolio-img1.png"
+                             alt="Contemporary living room with modern furniture and lighting">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Urban Oasis Living</h3>
+                        <p class="portfolio-category">Residential | Mumbai</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image-wrapper">
+                        <img src="portfolio-img2.png" 
+                             alt="Modern kitchen with clean lines and integrated appliances">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Sleek Modular Kitchen</h3>
+                        <p class="portfolio-category">Kitchen Renovation | Pune</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-image-wrapper">
+                        <img src="portfolio-img3.png" 
+                             alt="Serene bedroom with plush bedding and warm lighting">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Tranquil Master Bedroom</h3>
+                        <p class="portfolio-category">Residential | Bangalore</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="portfolio-image-wrapper">
+                        <img src="portfolio-img4.png" 
+                             alt="Modern dining area with minimalist design">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Minimalist Dining Space</h3>
+                        <p class="portfolio-category">Residential | Delhi</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="portfolio-image-wrapper">
+                        <img src="portfolio-img5.png" 
+                             alt="Cozy home office with natural light">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Productive Home Office</h3>
+                        <p class="portfolio-category">Commercial | Remote Setup</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="portfolio-image-wrapper">
+                        <img src="portfolio-img6.png"
+                             alt="Luxurious bathroom with modern fixtures">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Spa-like Bathroom Retreat</h3>
+                        <p class="portfolio-category">Bathroom Renovation | Chennai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section" data-aos="fade-up">
+        <div class="container mx-auto px-6">
+            <h2>Ready to Transform Your Space?</h2>
+            <p>
+                Let's discuss your vision and bring your dream interiors to life. We're excited to collaborate with you!
+            </p>
+            <a href="#contact" class="btn-main text-white px-10 py-4 rounded-full font-semibold text-xl inline-flex items-center">
+                Start Your Project Today <i class="fas fa-lightbulb ml-3"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="text-sm font-semibold tracking-wider text-primary-brand uppercase">Connect With Us</span>
+                <h2 class="section-heading">Let's Talk Interiors</h2>
+                <p class="section-subheading">
+                    Whether you have a question or a new project idea, we're here to help. Reach out to us!
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="contact-info-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h4 class="font-bold">Project Inquiry Form</h4>
+                    <p class="mb-4">For detailed project requests, please fill out our comprehensive form.</p>
+                    <a href="https://forms.gle/eKmwUKEjQqivdYuk9" target="_blank" class="text-primary-brand font-semibold hover:underline">
+                        Open Form <i class="fas fa-external-link-alt ml-1 text-sm"></i>
+                    </a>
+                </div>
+
+                <div class="contact-info-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4 class="font-bold">Email Us</h4>
+                    <p class="mb-4">Send us an email for general inquiries or support.</p>
+                    <a href="mailto:info@aakashinteriors.com" class="text-primary-brand font-semibold hover:underline">
+                        Aakash.design21@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-info-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h4 class="font-bold">Call Us</h4>
+                    <p class="mb-4">Speak directly with our team during business hours.</p>
+                    <a href="tel:+919876543210" class="text-primary-brand font-semibold hover:underline">
+                        +91 8989790536
+                    </a>
+                </div>
+
+                <div class="contact-info-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4 class="font-bold">Visit Us</h4>
+                    <p class="mb-4">Our studio is open by appointment. Find us here:</p>
+                    <p class="text-gray-600">Infront of Rajgharana sweets , station road, parmat , shahdol (m.p) 484001</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-16" data-aos="fade-up" data-aos-delay="500">
+                <h3 class="text-2xl font-bold mb-6 text-gray-800">Follow Our Journey</h3>
+                <div class="flex justify-center space-x-6 social-icons">
+                    <a href="https://www.instagram.com/aakash_interiors__?igsh=b3ZxY3NxYTlmY3dz&utm_source=qr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/aakash_interiors__?igsh=b3ZxY3NxYTlmY3dz&utm_source=qr" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/aakash_interiors__?igsh=b3ZxY3NxYTlmY3dz&utm_source=qr" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/aakash_interiors__?igsh=b3ZxY3NxYTlmY3dz&utm_source=qr" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://www.instagram.com/aakash_interiors__?igsh=b3ZxY3NxYTlmY3dz&utm_source=qr" aria-label="Houzz"><i class="fab fa-houzz"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white">
+        <div class="container mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-2xl font-bold tracking-tight mb-4 md:mb-0">
+                <span class="text-primary-brand">Aakash</span> Interiors
+            </div>
+            <div class="flex space-x-6 mb-4 md:mb-0">
+                <a href="#home" class="hover:text-primary-brand">Home</a>
+                <a href="#about" class="hover:text-primary-brand">About</a>
+                <a href="#services" class="hover:text-primary-brand">Services</a>
+                <a href="#portfolio" class="hover:text-primary-brand">Portfolio</a>
+                <a href="#contact" class="hover:text-primary-brand">Contact</a>
+            </div>
+            <p class="text-gray-500 text-sm">&copy; 2025 Aakash Interiors. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
